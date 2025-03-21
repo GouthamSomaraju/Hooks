@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import UseState from './Hooks/UseState';
+
+// import UseState from './Hooks/UseState';
+// import UseEffect from './Hooks/UseEffect';
+import Testing from './Hooks/testing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <UseState />
+    {/* <UseState /> */}
+    {/* <UseEffect /> */}
+    <Testing />
   </React.StrictMode>
 );
 
