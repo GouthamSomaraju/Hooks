@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 // import UseState from './Hooks/UseState';
-// import UseEffect from './Hooks/UseEffect';
+import UseEffect from './Hooks/UseEffect';
 import Testing from './Hooks/testing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
